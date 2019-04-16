@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lab10</title>
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/4CF937D9-7ABF-C344-9A9D-079952CB4664/main.js" charset="UTF-8"></script><script src="functions.js"></script>
+</head>
+    <body>
+    <input type="text" id="bedrag" placeholder="Vul bedrag in">
+    <select id="select"name="conversies">
+        <option value="dollar_euro">dollar/euro</option>
+        <option value="euro_dollar">euro/dollar</option>
+        <option value="roebel_euro">roebel/euro</option>
+        <option value="euro_roebel">euro/roebel</option>
+    </select>
+    <button onclick="exchange()">Converteren</button>
+    <p id="berekening"></p>
+    <script>
+        exchange();
+    </script>
+</body>
+</html>

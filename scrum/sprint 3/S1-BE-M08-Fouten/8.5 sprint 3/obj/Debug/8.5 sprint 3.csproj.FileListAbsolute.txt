@@ -1,0 +1,7 @@
+D:\Data ROC\Visual studio data\8.5 sprint 3\8.5 sprint 3\obj\Debug\8.5 sprint 3.csprojAssemblyReference.cache
+D:\Data ROC\Visual studio data\8.5 sprint 3\8.5 sprint 3\obj\Debug\8.5 sprint 3.csproj.CoreCompileInputs.cache
+D:\Data ROC\Visual studio data\8.5 sprint 3\8.5 sprint 3\bin\Debug\8.5 sprint 3.exe.config
+D:\Data ROC\Visual studio data\8.5 sprint 3\8.5 sprint 3\bin\Debug\8.5 sprint 3.exe
+D:\Data ROC\Visual studio data\8.5 sprint 3\8.5 sprint 3\bin\Debug\8.5 sprint 3.pdb
+D:\Data ROC\Visual studio data\8.5 sprint 3\8.5 sprint 3\obj\Debug\8.5 sprint 3.exe
+D:\Data ROC\Visual studio data\8.5 sprint 3\8.5 sprint 3\obj\Debug\8.5 sprint 3.pdb

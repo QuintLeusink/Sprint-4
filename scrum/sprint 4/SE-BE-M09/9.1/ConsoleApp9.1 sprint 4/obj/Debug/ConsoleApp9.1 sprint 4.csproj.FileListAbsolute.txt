@@ -1,0 +1,7 @@
+D:\Data ROC\sprint 4\c#\ConsoleApp9.1 sprint 4\ConsoleApp9.1 sprint 4\bin\Debug\ConsoleApp9.1 sprint 4.exe.config
+D:\Data ROC\sprint 4\c#\ConsoleApp9.1 sprint 4\ConsoleApp9.1 sprint 4\bin\Debug\ConsoleApp9.1 sprint 4.exe
+D:\Data ROC\sprint 4\c#\ConsoleApp9.1 sprint 4\ConsoleApp9.1 sprint 4\bin\Debug\ConsoleApp9.1 sprint 4.pdb
+D:\Data ROC\sprint 4\c#\ConsoleApp9.1 sprint 4\ConsoleApp9.1 sprint 4\obj\Debug\ConsoleApp9.1 sprint 4.csprojAssemblyReference.cache
+D:\Data ROC\sprint 4\c#\ConsoleApp9.1 sprint 4\ConsoleApp9.1 sprint 4\obj\Debug\ConsoleApp9.1 sprint 4.csproj.CoreCompileInputs.cache
+D:\Data ROC\sprint 4\c#\ConsoleApp9.1 sprint 4\ConsoleApp9.1 sprint 4\obj\Debug\ConsoleApp9.1 sprint 4.exe
+D:\Data ROC\sprint 4\c#\ConsoleApp9.1 sprint 4\ConsoleApp9.1 sprint 4\obj\Debug\ConsoleApp9.1 sprint 4.pdb
