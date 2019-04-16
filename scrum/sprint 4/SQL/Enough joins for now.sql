@@ -1,19 +1,16 @@
-select 
-[EpisodeEnemyId], 
-e.[EnemyName],
-[EpisodeNumber],
-[AuthorName]
-from 
-[dbo].[tblEpisodeEnemy] 
-as 
-epe
-inner join [dbo].[tblEnemy] as e
-on 
-epe.EnemyId= e.EnemyId
-inner join [dbo].[tblEpisode] as e1
-on
- epe.EpisodeId = e1.EpisodeId
-inner join [dbo].[tblAuthor] as a
-on
- e1.AuthorId= a.AuthorId
-where EnemyName like '%Daleks%'
+SELECT 
+EpisodeEnemyId, 
+e.EnemyName,
+EpisodeNumber,
+AuthorName
+FROM
+tblEpisodeEnemy AS epe
+LEFT JOIN tblEnemy AS e
+ON epe.EnemyId= e.EnemyId
+LEFT JOIN tblEpisode AS e1
+ON epe.EpisodeId= e1.EpisodeId
+LEFT JOIN tblAuthor AS a
+ON e1.AuthorId = a.AuthorId
+
+WHERE
+EnemyName LIKE '%Daleks%' 
