@@ -1,0 +1,40 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Opdracht_6._4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            Console.WriteLine("Hoe wilt u rekenen? kies uit (+, -, x)");
+            string keuze = (Console.ReadLine());
+            Console.WriteLine("Vul uw eerste getal in:");
+            int getal1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Vul uw tweede getal in:");
+            int getal2 = int.Parse(Console.ReadLine());
+            if (keuze == "+")
+            {
+                Console.WriteLine(getal1 + getal2);
+            }
+            else if (keuze == "-")
+            {
+                Console.WriteLine(getal1 - getal2);
+            }
+            else if (keuze == "x")
+            {
+                Console.WriteLine(getal1 * getal2);
+            }
+            else
+            {
+                Console.WriteLine("Error");
+            }
+            Console.ReadKey();
+        }
+    }
+}

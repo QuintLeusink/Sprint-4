@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Opdracht_test
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            bool weekend = DateTime.Now.DayOfWeek == DayOfWeek.Sunday || DateTime.Now.DayOfWeek == DayOfWeek.Saturday;
+            if (weekend == true)
+            {
+                Console.WriteLine(" It's weekend!");
+            }
+            else
+            {
+                Console.WriteLine(" Unfortunately it's not weekend:(");
+            }
+            Console.ReadKey();
+            
+        }
+    }
+}

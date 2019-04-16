@@ -1,0 +1,91 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Opdracht3
+{
+    class Program
+    {
+        enum Zodiac
+        {
+            Ram,
+            Stier,
+            Tweelingen,
+            Kreeft,
+            Leeuw,
+            Maagd,
+            Weegschaal,
+            Schorpion,
+            Boogschutter,
+            Steenbok,
+            Waterman,
+            Vissen
+        };
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine(" Geef geboortedatum:");
+            DateTime geboortedatum = Convert.ToDateTime(Console.ReadLine());
+            Console.WriteLine(GetZodiac(geboortedatum));
+            Console.ReadLine();
+
+        }
+        private static Zodiac GetZodiac(DateTime birthdate)
+        {
+            Zodiac myHoroscoop = Zodiac.Steenbok;
+
+            if (birthdate > new DateTime(birthdate.Year, 03, 23) && birthdate < new DateTime(birthdate.Year, 04, 20))
+            {
+                myHoroscoop = Zodiac.Ram;
+            }
+            else if (birthdate > new DateTime(birthdate.Year,04,20) && birthdate < new DateTime (birthdate.Year,05,22))
+            {
+                myHoroscoop = Zodiac.Stier;
+            }
+            else if (birthdate > new DateTime(birthdate.Year,05,21) && birthdate < new DateTime (birthdate.Year,07,22))
+            {
+                myHoroscoop = Zodiac.Tweelingen;
+            }
+            else if (birthdate > new DateTime(birthdate.Year,06,21) && birthdate < new DateTime (birthdate.Year,07,24))
+            {
+                myHoroscoop = Zodiac.Kreeft;
+            }
+            else if (birthdate > new DateTime(birthdate.Year,07,23) && birthdate < new DateTime (birthdate.Year,08,24))
+            {
+                myHoroscoop = Zodiac.Leeuw;
+            }
+            else if (birthdate > new DateTime(birthdate.Year,08,23) && birthdate < new DateTime (birthdate.Year,09,24))
+            {
+                myHoroscoop = Zodiac.Maagd;
+            }
+            else if (birthdate > new DateTime(birthdate.Year,09,23) && birthdate< new DateTime (birthdate.Year,10,24))
+            {
+                myHoroscoop = Zodiac.Weegschaal;
+            }
+            else if (birthdate > new DateTime(birthdate.Year,10,23) && birthdate < new DateTime (birthdate.Year,11,23))
+            {
+                myHoroscoop = Zodiac.Schorpion;
+            }
+            else if (birthdate > new DateTime (birthdate.Year,11,23) && birthdate < new DateTime (birthdate.Year,12,22))
+            {
+                myHoroscoop = Zodiac.Boogschutter;
+            }
+            else if (birthdate > new DateTime((birthdate.Year-1),12,22) && birthdate < new DateTime(birthdate.Year, 01, 21))
+            {
+                myHoroscoop = Zodiac.Steenbok;
+            }             
+            else if (birthdate > new DateTime (birthdate.Year,01,20) && birthdate < new DateTime(birthdate.Year, 02, 19))
+            {
+                myHoroscoop = Zodiac.Waterman;
+            }
+            else if (birthdate > new DateTime(birthdate.Year,02,18) && birthdate < new DateTime(birthdate.Year,03,21))
+            {
+                myHoroscoop = Zodiac.Vissen;
+            }
+            return myHoroscoop;
+        }
+
+    }
+}

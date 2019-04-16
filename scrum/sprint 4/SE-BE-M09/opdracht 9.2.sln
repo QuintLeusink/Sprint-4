@@ -1,0 +1,63 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Opdracht_9._2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Kies uit Nederlands of Duits");
+            string keuze = Console.ReadLine();
+
+            if (keuze.ToLower().StartsWith("n"))
+            {
+                for (int i = 0; i < 5; i++)
+                {
+                    Console.Clear();
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("[0]");
+                    System.Threading.Thread.Sleep(5000);
+
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine("[0]");
+                    System.Threading.Thread.Sleep(5000);
+
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("[0]");
+                    System.Threading.Thread.Sleep(2000);
+                }
+            }
+            else if (keuze.ToLower().StartsWith("d"))
+            {
+                for (int i = 0; i < 5; i++)
+                {
+                    Console.Clear();
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("-Red-");
+                    System.Threading.Thread.Sleep(5000);
+
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("-Red-");
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("-Orange-");
+                    System.Threading.Thread.Sleep(5000);
+
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine("-Green");
+                    System.Threading.Thread.Sleep(5000);
+
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("-Orange");
+                    System.Threading.Thread.Sleep(5000);
+                }
+
+                Console.ReadKey();
+            }
+        }
+    }
+}
+
