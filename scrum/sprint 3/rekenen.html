@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>rekenen</title>
+</head>
+<body>
+  <script>
+    var antwoord;
+    var getal1 = parseInt(prompt("voer een getal (getal1) in"));
+    var getal2 = parseInt(prompt("voer een getal (getal2) in"));
+    var som = prompt("voer in (plus, min, maal, delen");
+
+    if(som == "plus"){
+
+        antwoord=Number(getal1)+Number(getal2);
+        document.write(antwoord);
+    }
+
+    else if(som == "min"){
+      antwoord=Number(getal1)-Number(getal2);
+      document.write(antwoord)
+    }
+
+    else if (som == "delen"){
+      antwoord=Number(getal1)/Number(getal2);
+      document.write(antwoord);
+    }
+
+    else if(som == "maal"){
+      antwoord=Number(getal1)*Number(getal2)
+    }
+
+
+  </script>
+</body>
+</html>

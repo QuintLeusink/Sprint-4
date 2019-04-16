@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>rekenen</title>
+</head>
+<body>
+
+
+<script>
+
+    var Getal1 = prompt("Voer een getal in");
+    var Getal2 = prompt("Voer een getal in");
+    var string = prompt("Kies uit: plus, min, delen of maal");
+
+    if (string === "plus"){
+        document.write(Number(Getal1) + Number(Getal2));
+    }
+
+    else if(string === "min"){
+        document.write(Number(Getal1) - Number(Getal2));
+    }
+
+    else if(string === "delen"){
+        document.write(Number(Getal1) / Number(Getal2));
+    }
+    else if (string === "maal"){
+        document.write(Number(Getal1) * Number(Getal2));
+    }
+
+
+</script>
+
+</body>
+</html>

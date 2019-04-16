@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>weekdagen.html</title>
+</head>
+<body>
+<p>Vandaag is het:</p>
+
+<p id="demo"></p>
+<script>
+    var d = new Date();
+    var days = ["Zondag","Maandag","Dinsdag","Woensdag","Donderdag","Vrijdag","Zaterdag"];
+    document.getElementById("demo").innerHTML = days[d.getDay()];
+</script>
+</body>
+</html>

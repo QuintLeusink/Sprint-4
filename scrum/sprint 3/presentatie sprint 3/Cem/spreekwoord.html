@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Weekdagen</title>
+ <script> 
+  var d = new Date();
+  var weekdagen=["zondag","maandag","dinsdag","woensdag","donderdag","vrijdag","zaterdag"];
+  var dateoftoday = weekdagen[d.getDay()];
+  if (dateoftoday == "zondag")
+  {
+  document.write("Het is vandaag " + dateoftoday + "," + "Die tip van de dag die hierbij hoort is: " + " Eigen haard is goud waard");
+  }
+  else if (dateoftoday == "maandag")
+  {
+  document.write("Het is vandaag " + dateoftoday + "," + "De tip van de dag die hierbij hoort is: " + " Haastige spoed is zelden goed");
+  }
+  else if (dateoftoday == "dinsdag")  
+  {
+  document.write("Het is vandaag " + dateoftoday + "," + " De tip van de dag die hierbij hoort is: " + "Beter laat dan nooit");
+  }
+  else if (dateoftoday == "Woensdag")
+  {
+  document.write("Het is vandaag " + dateoftoday + "," + " De tip van de dag die hierbij hoort is: " + " Wie het laatst lacht, lacht het best");
+  }
+  else if (dateoftoday == "donderdag")
+  {
+  document.write("Het is vandaag " + dateoftoday + "," + " De tip van de dag die hierbij hoort is: " + " De morgenstond heeft goud in de mond");
+  }
+  else if (dateoftoday == "vrijdag")
+  {
+  document.write("Het is vandaag " + dateoftoday + "," + " De tip van de dag die hierbij hoort is: " + " Zoals het klokje thuis klikt, klikt het nergens anders");
+  }
+  else if (dateoftoday == "zaterdag")
+  {
+  document.write("Het is vandaag " + dateoftoday + "," + " De tip van de dag die hierbij hoort: " + " Oost West, thuis best");
+  }
+ </script>
+ </head>
+ <body>
+ </body>
+</html>

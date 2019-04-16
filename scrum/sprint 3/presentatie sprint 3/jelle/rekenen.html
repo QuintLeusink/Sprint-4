@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <script>
+        var getal1 = prompt("kies getal 1 ");
+        var getal2 = prompt("kies getal 2 ");
+        var ding = prompt("wilt u plus, min, keer of delen ?");
+
+        if (ding == "plus")
+        {
+           var antwoord = Number(getal1) + Number(getal2);
+           document.write("uw antwoord is " + antwoord);
+
+        }
+        else if (ding == "min")
+        {
+            var antwoord = Number(getal1) - Number(getal2);
+            document.write("uw antwoord is " + antwoord);
+        }
+        else if (ding == "keer")
+        {
+            var antwoord = Number(getal1) * Number(getal2);
+            document.write("uw antwoord is " + antwoord);
+        }
+        else if (ding == "delen")
+        {
+            var antwoord = Number(getal1) / Number(getal2);
+            document.write("uw antwoord is " + antwoord);
+        }
+        else
+        {
+            document.write("error");
+        }
+    </script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>spreekwoorden.html</title>
+</head>
+<body>
+<p>Vandaag is het:</p>
+
+<p id="demo"></p>
+<p id="spreekwoord"></p>
+
+    <script>
+        var d = new Date();
+        var days = ["Zondag","Maandag","Dinsdag","Woensdag","Donderdag","Vrijdag","Zaterdag"];
+        document.getElementById("demo").innerHTML = days[d.getDay()];
+
+        var s = new Array();
+        s[1] = "Eigenhaard is goud waard";
+        s[2] = "Haastige spoed is zelden goed";
+        s[3] = "Beter laat dan nooit";
+        s[4] = "Wie het laatst lacht lacht het best";
+        s[5] = "De morgenstond heeft goud in de mond";
+        s[6] = "Zoals het klokje thuis tikt, tikt hij nergens";
+        s[7] = "Oost west, Thuis best";
+
+        document.getElementById("spreekwoord").innerHTML = s[d.getDay()];
+
+    </script>
+</body>
+</html>

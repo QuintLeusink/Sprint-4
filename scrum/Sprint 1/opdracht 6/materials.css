@@ -1,0 +1,30 @@
+@-webkit-keyframes play {
+    from, to {
+        top: 0;
+        -webkit-animation-timing-function: ease-in;
+    }
+    50% {
+        top: 200px;
+        -webkit-animation-timing-function: ease-in;
+    }
+}
+@keyframes play {
+    from, to{
+        top: 0;
+        animation-timing-function: ease-in;
+    }
+    50% {
+        top: 200px;
+        animation-timing-function: ease-in;
+    }
+}
+#bal {
+    position: relative;
+    -webkit-animation-name: play;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 4.2s;
+
+    -webkit-animation-name: play;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 4.2s;
+}

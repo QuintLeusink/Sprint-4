@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>lab07</title>
+    <!--dit script werkt met variabelen
+    auteur: Quint leusink
+    datum:23-1-2019
+    -->
+</head>
+    <body>
+    <h2>Lab 07</h2>
+    <h3>Factuur</h3>
+        <script>
+            //Prompts bij het opstarten van de webpagina
+            var klantnaam = prompt("voer je eigen naam in");
+            var aantal = parseInt(prompt("aantal boeken te bestellen?"));
+            var woonplaats = prompt("Voer uw woonplaats in:");
+            var postcode = prompt("Voer uw postcode in:");
+            var title = "JavaScript";
+            
+            if(postcode >= "1000AA" && postcode<= "2000BB")
+            {
+                alert("U heeft geen bezorg kosten");
+                bezorgkosten - 15;
+            }
+
+            //alles wat met de pijzen te maken geeft
+            var prijs = 29.90;
+            totaal = prijs * aantal;
+            btw = totaal / 100 * 6;
+            incbtw = totaal * 1.06;
+            
+            //alles wat met data te maken heeft
+            var d = new Date();
+            var dag = d.getDate();
+            var maand = d.getMonth();
+            var jaar = d.getFullYear();
+            var betaaldatum = dag + 5;
+            var bezorgkosten = 15;
+            
+
+            //Informatie scherm
+            document.write("<br>Factuur");
+            var factuurdatum = document.write("<br>Factuur datum: " + dag + "-" + maand + "-" + jaar);
+            document.write("<br>Betaal datum is: " + betaaldatum + "-" + maand + "-" + jaar);
+            document.write("<br>Bedankt voor je bestelling: " + klantnaam);
+            document.write("<br>boeken titel is: " + title);
+            document.write("<br>aantal te bestellen: " + aantal);
+            document.write("<br>prijs per boek is: " + prijs.toFixed(2));
+            document.write("<br>Totaal prijs excl btw is: " + totaal);
+            document.write("<br>Uw btw is: " + btw);
+            document.write("<br>prijs inclusief btw is :" + incbtw + bezorgkosten);
+        </script>
+    </body>
+</html>

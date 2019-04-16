@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>lab01</title>
+    <!--dit script werkt met variabelen
+    auteur: Quint leusink
+    datum:23-1-2019
+    -->
+</head>
+    <body>
+    <h2>Lab 06</h2>
+    <h3>Factuur</h3>
+        <script>
+            var klantnaam = prompt("voer je eigen naam in");
+            var aantal =
+            parseInt(prompt("aantal boeken te bestellen?"));
+            var title = "JavaScript";
+            var prijs = 29.90;
+            totaal = prijs * aantal;
+            btw = totaal / 100 * 6;
+            incbtw = totaal * 1.06;
+            
+
+            var d = new Date();
+            var dag = d.getDate();
+            var maand = d.getMonth();
+            var jaar = d.getFullYear();
+            var betaaldatum = dag + 5;
+            
+            document.write("<br>Factuur");
+            
+            var factuurdatum = document.write("<br>Factuur datum: " + dag + "-" + maand + "-" + jaar);
+            
+            document.write("<br>Betaal datum is: " + betaaldatum + "-" + maand + "-" + jaar);
+            document.write("<br>Bedankt voor je bestelling: " + klantnaam);
+            document.write("<br>boeken titel is: " + title);
+            document.write("<br>aantal te bestellen: " + aantal);
+            document.write("<br>prijs per boek is: " + prijs.toFixed(2));
+            document.write("<br>Totaal prijs excl btw is: " + totaal);
+            document.write("<br>Uw btw is: " + btw);
+            document.write("<br>prijs inclusief btw is :" + incbtw);
+        </script>
+    </body>
+</html>

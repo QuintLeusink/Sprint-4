@@ -1,0 +1,22 @@
+C:\Users\stann\Desktop\M05 Sprint 2 AF\Opdracht6.13\Opdracht6.13\bin\Debug\Opdracht6.13.exe.config
+C:\Users\stann\Desktop\M05 Sprint 2 AF\Opdracht6.13\Opdracht6.13\bin\Debug\Opdracht6.13.exe
+C:\Users\stann\Desktop\M05 Sprint 2 AF\Opdracht6.13\Opdracht6.13\bin\Debug\Opdracht6.13.pdb
+C:\Users\stann\Desktop\M05 Sprint 2 AF\Opdracht6.13\Opdracht6.13\obj\Debug\Opdracht6.13.csprojAssemblyReference.cache
+C:\Users\stann\Desktop\M05 Sprint 2 AF\Opdracht6.13\Opdracht6.13\obj\Debug\Opdracht6.13.csproj.CoreCompileInputs.cache
+C:\Users\stann\Desktop\M05 Sprint 2 AF\Opdracht6.13\Opdracht6.13\obj\Debug\Opdracht6.13.exe
+C:\Users\stann\Desktop\M05 Sprint 2 AF\Opdracht6.13\Opdracht6.13\obj\Debug\Opdracht6.13.pdb
+C:\Users\stann\Desktop\Sprint 3\S1-BE-M06-Functies\Opdracht6.13\Opdracht6.13\bin\Debug\Opdracht6.13.exe.config
+C:\Users\stann\Desktop\Sprint 3\S1-BE-M06-Functies\Opdracht6.13\Opdracht6.13\bin\Debug\Opdracht6.13.exe
+C:\Users\stann\Desktop\Sprint 3\S1-BE-M06-Functies\Opdracht6.13\Opdracht6.13\bin\Debug\Opdracht6.13.pdb
+C:\Users\stann\Desktop\Sprint 3\S1-BE-M06-Functies\Opdracht6.13\Opdracht6.13\obj\Debug\Opdracht6.13.csprojAssemblyReference.cache
+C:\Users\stann\Desktop\Sprint 3\S1-BE-M06-Functies\Opdracht6.13\Opdracht6.13\obj\Debug\Opdracht6.13.csproj.CoreCompileInputs.cache
+C:\Users\stann\Desktop\Sprint 3\S1-BE-M06-Functies\Opdracht6.13\Opdracht6.13\obj\Debug\Opdracht6.13.exe
+C:\Users\stann\Desktop\Sprint 3\S1-BE-M06-Functies\Opdracht6.13\Opdracht6.13\obj\Debug\Opdracht6.13.pdb
+C:\Users\psnqu\OneDrive\Bureaublad\presentatie sprint 3\stan\Opdracht6.13\Opdracht6.13\bin\Debug\Opdracht6.13.exe.config
+C:\Users\psnqu\OneDrive\Bureaublad\presentatie sprint 3\stan\Opdracht6.13\Opdracht6.13\bin\Debug\Opdracht6.13.exe
+C:\Users\psnqu\OneDrive\Bureaublad\presentatie sprint 3\stan\Opdracht6.13\Opdracht6.13\bin\Debug\Opdracht6.13.pdb
+C:\Users\psnqu\OneDrive\Bureaublad\presentatie sprint 3\stan\Opdracht6.13\Opdracht6.13\obj\Debug\Opdracht6.13.csprojAssemblyReference.cache
+C:\Users\psnqu\OneDrive\Bureaublad\presentatie sprint 3\stan\Opdracht6.13\Opdracht6.13\obj\Debug\Opdracht6.13.csproj.CoreCompileInputs.cache
+C:\Users\psnqu\OneDrive\Bureaublad\presentatie sprint 3\stan\Opdracht6.13\Opdracht6.13\obj\Debug\Opdracht6.13.exe
+C:\Users\psnqu\OneDrive\Bureaublad\presentatie sprint 3\stan\Opdracht6.13\Opdracht6.13\obj\Debug\Opdracht6.13.pdb
+C:\Users\psnqu\OneDrive\Bureaublad\presentatie sprint 3\stan\Opdracht6.13\Opdracht6.13\bin\Debug\sounds\eend_1.wav
