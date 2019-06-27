@@ -31,7 +31,7 @@
             btw = totaal / 100 * 6;
             incbtw = totaal * 1.06;
             
-            //alles wat met data te maken heeft
+            //alles wat met data te maken heeft en dagen deffineerd
             var d = new Date();
             var dag = d.getDate();
             var maand = d.getMonth();
@@ -48,8 +48,8 @@
             document.write("<br>boeken titel is: " + title);
             document.write("<br>aantal te bestellen: " + aantal);
             document.write("<br>prijs per boek is: " + prijs.toFixed(2));
-            document.write("<br>Totaal prijs excl btw is: " + totaal);
-            document.write("<br>Uw btw is: " + btw);
+            document.write("<br>Totaal prijs excl btw is: " + totaal.toFixed(2));
+            document.write("<br>Uw btw is: " + btw.toFixed(2));
             document.write("<br>prijs inclusief btw is :" + incbtw + bezorgkosten);
         </script>
     </body>

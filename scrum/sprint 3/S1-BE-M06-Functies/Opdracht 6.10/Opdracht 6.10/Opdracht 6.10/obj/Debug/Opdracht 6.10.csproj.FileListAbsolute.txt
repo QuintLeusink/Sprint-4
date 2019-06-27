@@ -1,0 +1,14 @@
+C:\Users\stann\source\repos\Opdracht 6.10\Opdracht 6.10\bin\Debug\Opdracht 6.10.exe.config
+C:\Users\stann\source\repos\Opdracht 6.10\Opdracht 6.10\bin\Debug\Opdracht 6.10.exe
+C:\Users\stann\source\repos\Opdracht 6.10\Opdracht 6.10\bin\Debug\Opdracht 6.10.pdb
+C:\Users\stann\source\repos\Opdracht 6.10\Opdracht 6.10\obj\Debug\Opdracht 6.10.csprojAssemblyReference.cache
+C:\Users\stann\source\repos\Opdracht 6.10\Opdracht 6.10\obj\Debug\Opdracht 6.10.csproj.CoreCompileInputs.cache
+C:\Users\stann\source\repos\Opdracht 6.10\Opdracht 6.10\obj\Debug\Opdracht 6.10.exe
+C:\Users\stann\source\repos\Opdracht 6.10\Opdracht 6.10\obj\Debug\Opdracht 6.10.pdb
+C:\Users\stann\Desktop\Sprint 3 laten zien\Opdracht 6 (10 en 13)\Opdracht 6.10\Opdracht 6.10\obj\Debug\Opdracht 6.10.csprojAssemblyReference.cache
+C:\Users\stann\Desktop\Sprint 3 laten zien\Opdracht 6 (10 en 13)\Opdracht 6.10\Opdracht 6.10\obj\Debug\Opdracht 6.10.csproj.CoreCompileInputs.cache
+C:\Users\stann\Desktop\Sprint 3 laten zien\Opdracht 6 (10 en 13)\Opdracht 6.10\Opdracht 6.10\obj\Debug\Opdracht 6.10.exe
+C:\Users\stann\Desktop\Sprint 3 laten zien\Opdracht 6 (10 en 13)\Opdracht 6.10\Opdracht 6.10\obj\Debug\Opdracht 6.10.pdb
+C:\Users\stann\Desktop\Sprint 3 laten zien\Opdracht 6 (10 en 13)\Opdracht 6.10\Opdracht 6.10\bin\Debug\Opdracht 6.10.exe.config
+C:\Users\stann\Desktop\Sprint 3 laten zien\Opdracht 6 (10 en 13)\Opdracht 6.10\Opdracht 6.10\bin\Debug\Opdracht 6.10.exe
+C:\Users\stann\Desktop\Sprint 3 laten zien\Opdracht 6 (10 en 13)\Opdracht 6.10\Opdracht 6.10\bin\Debug\Opdracht 6.10.pdb
