@@ -1,0 +1,1 @@
+SELECT COUNT(EventDate) AS 'Number of Events',MAX(EventDate) AS 'Last Date ',MIN(EventDate) AS 'First date' FROM tblEvent

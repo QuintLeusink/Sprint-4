@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>string-methodes</title>
+</head>
+<body>
+    <script>
+        document.write("Opgave 84:");
+        var titel = "javascript";
+        document.write("<br>Index van letter s is: " + titel.indexOf("s"));
+        document.write("<br>Opgave 85:");
+        var string = "dit is een lange tekst met daarin het woord javascript";
+        document.write("<br>Postitie van het woord javascript is: " + string.indexOf("javascript"));
+        document.write("<br>Postitie van het woord HTML is: " + string.indexOf("HTML"));
+        document.write("<br>Opgave 86:");
+        if(navigator.userAgent.indexOf("MSIE") != -1) {
+            document.write("<br>Browser is Internet Explorer");
+        }
+        else if(navigator.userAgent.indexOf("Firefox") != -1) {
+            document.write("<br>Browser is Firefox");
+        }
+        else if(navigator.userAgent.indexOf("Chrome") != -1) {
+            document.write("<br>Browser is Chrome");
+        }
+        document.write("<br>Opgave 87:");
+        document.write("<br>De lengte van titel is: " + titel.length);
+        document.write("<br>Opgave 88:");
+        var spiegeling = " "; for(x=0; x < titel.length; x++) {
+            var teken = titel.charAt(x);
+            spiegeling = teken + spiegeling;
+        }
+        document.write("<br>Javascript gespiegeld: " + spiegeling);
+        document.write("<br>Opgave 89:");
+        var tekst = "dit is een lange tekst met daarin het woord javascript";
+        splitsing = tekst.split(" ");
+        document.write("<br>De resulterende array is: " + splitsing);
+        document.write("<br>Opgave 90:");
+        var string = "dit is een lange string met daarin het woord javascript";
+        document.write("<br>"+string.substring(11,23));
+        document.write("<br>Opgave 91:");
+        string = string.substr(0,string.indexOf("javascript"))+ string.substr(string.indexOf("javascript")+10, string.length);
+        document.write("<br>String is nu: " + string)
+        document.write("<br>Opgave 92:");
+        var cursus = prompt("Kies een van de volgende " + "cursussen HTML of Javascript");
+        if (cursus.toLowerCase() == "html" || cursus.toLowerCase() == "javascript") {
+            document.write("<br>Je hebt: "+cursus.toUpperCase()+ " gekozen. ");
+        }
+        else {
+            document.write("<br>Kies een geldige cursus");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 11</title>
+</head>
+<body>
+    <script>
+        document.write("Lab 11:")
+        var getal = new Array();
+        getal[0] = 'nul';
+        getal[1] = 'een';
+        getal[2] = 'twee';
+        getal[3] = 'drie';
+        getal[4] = 'vier';
+        getal[5] = 'vijf';
+        getal[6] = 'zes';
+        getal[7] = 'zeven';
+        getal[8] = 'acht';
+        getal[9] = 'negen';
+
+        var telefoonnummer = prompt('Wat is je telefoonnummer?');
+        telefoonnummer = telefoonnummer.split("");
+
+        for(var i = 0; i < telefoonnummer.length; i++) {
+            telefoonnummer[i] = getal[telefoonnummer[i]];
+        }
+
+        telefoonnummer = telefoonnummer.join(" ");
+        document.write('<br>Je telefoonnummer is: ' + telefoonnummer);
+    </script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8">
+        <title>DOM events</title>
+        <script src="dom-events.js"></script>
+        <script>
+
+            document.write('<form name="klok"> ' + '<input type="text" ' +
+            'name="display" ' + 'size="8" ' + 'style="background-color: #30CE28; font-size: 44px" >' + '</form>');
+            var nu = new Date();
+            var uur = nu.getHours();
+            var min = nu.getMinutes();
+            var sec = nu.getSeconds();
+            var alterneren = 0;
+            function showklok(){
+            min=((min < 10) ? '0': '') + min;
+            if(alterneren){
+                document.klok.display.value=uur + ':' + min + ':' + sec;
+                alterneren = 0;
+            } else{
+                document.klok.display.value=uur + ':' + min + ':' + sec;
+                alterneren = 1;
+            }
+            nu = new Date(); uur = nu.getHours(); min = nu.getMinutes(); sec = nu.getSeconds();
+            setTimeout('showklok()', 1000);
+        }
+</script>
+<body onload="showklok();">
+    <div>
+        <a href="Javascript: showMedia();">
+            <img src="ipad.jpg" id="media"
+            onmouseover="this.width=this.width*1.5"
+            onmouseout="this.width=this.width/1.5"></a>
+    </div>
+</body>
+            <form action="mailto: 0312345@student.rocvantwente.nl"
+            name="custform"
+            method="post"
+            onsubmit="return(formcheck(this));">
+            <fieldset style="width: 150px;">
+                <legend>Bestelformulier</legend>
+                <label for="man">Man: </label>
+                <input required type="radio" name="geslacht" id="man" value="m"
+                onchange="
+
+                if(document.custform.man.checked == true) {
+                    alert('Welkom meneer!');
+                }">
+                <label for="vrouw">Vrouw: </label>
+                <input required type="radio" name="geslacht" id="vrouw" value="v"
+                onchange="
+
+                if(document.custform.vrouw.checked == true) {
+                    alert('Welkom mevrouw!');
+                }">
+                <br><input required type="text" name="voornaam" placeholder="vul uw voornaam in"><br>
+                <input required type="text" name="achternaam" placeholder="vul uw achternaam in"><br>
+                <input required type="text" name="leeftijd" placeholder="vul uw leeftijd in" onchange="
+
+                if(document.custform.leeftijd.value < 17) {
+                    alert('Je bent leerplichtig!');
+                }
+
+                if(document.custform.leeftijd.value > 55) {
+                    alert('Kijk naar onze seniorenprogramma!');
+                }"><br>
+                <input type="text" name="woonplaats" placeholder="vul uw woonplaats in"><br>
+                <input type="text" name="postcode" placeholder="vul uw postcode in"><br>
+                <input type="text" name="email" placeholder="vul uw email in"><br>
+                <input type="text" name="06" placeholder="vul uw 06 in"><br>
+                <input type="text" name="wachtwoord" placeholder="vul uw wachtwoord in"><br>
+                <input type="text" name="wachtwoordre" placeholder="wachtwoord nogmaals"><br>
+            </fieldset>
+            <fieldset style="width: 175px;">
+                    <form name="custform">
+                <legend>Bestelling</legend>
+                        Smartphone:
+                        <input type="checkbox" name="gadget" value="smartphone" onchange="
+                        if(document.custform.gadget[0].checked) {
+                            alert('Smartphone besteld!')
+                        }"/><br>
+                        Laptop:
+                        <input type="checkbox" name="gadget" value="laptop" onchange="
+                        if(document.custform.gadget[1].checked) {
+                            alert('Laptop besteld!')
+                        }"/><br>
+                        Tablet: <input type="checkbox" name="gadget" value="tablet" onchange="
+                        if(document.custform.gadget[2].checked) {
+                            alert('Tablet besteld!')
+                        }"/>
+                        <br><u>Verzendmethode's:</u>
+                        <br><select onchange="
+                        if(document.custform.bezorging.value == ''){
+                            getElementById('expres-info').style.display='none';
+                            getElementById('dag-info').style.display='none';
+                            getElementById('week-info').style.display='none';                        
+                        }
+                        if(document.custform.bezorging.value == ''){
+                            alert('Kies een verzendmethode!')
+                        }
+                        if(document.custform.bezorging.value == 'express'){
+                            getElementById('expres-info').style.display='block';
+                            getElementById('dag-info').style.display='none';
+                            getElementById('week-info').style.display='none';
+                        }
+                        if(document.custform.bezorging.value == 'dag'){
+                            getElementById('expres-info').style.display='none';
+                            getElementById('dag-info').style.display='block';
+                            getElementById('week-info').style.display='none';
+                        }
+                        if(document.custform.bezorging.value == 'week'){
+                            getElementById('expres-info').style.display='none';
+                            getElementById('dag-info').style.display='none';
+                            getElementById('week-info').style.display='block';
+                        }"
+                        name="bezorging">
+                        <option id="" value=""></option>
+                        <option id="express" value="express">Express</option>
+                        <option id="dag" value="dag">Dag</option>
+                        <option id="week" value="week">Week</option>
+                    </select>
+                        <br>
+                            <div id="expres-info" style="display:none">Express bestelling</div>
+                            <div id="dag-info" style="display:none">Dag bestelling</div>
+                            <div id="week-info" style="display:none">Week bestelling</div>
+                        <br>
+                    </select>
+                        <input type="submit" id="submit" name="submit" value="Verzenden"
+                        onmouseover="style.color='green'"
+                        onmouseout="style.color='black'">  
+            </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 15</title>
+</head>
+<body>
+<input type="text" id="woord" placeholder="Woord">
+<input type="text" id="nieuwewoord" placeholder="Nieuwewoord">
+<button onclick="vervangen()">Vervangen</button>
+<p id="demo">Dit document is een lang document maar ook een simpel document</p>
+<script>
+    function vervangen() {
+        var woord = document.getElementById("woord").value;
+        var nieuwewoord = document.getElementById("nieuwewoord").value;
+        var str = document.getElementById("demo").innerHTML;
+        document.getElementById("demo").innerHTML = str.replace(woord, nieuwewoord);
+    }
+</script>
+</body>
+</html>
